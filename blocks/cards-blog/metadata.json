@@ -1,0 +1,40 @@
+{
+  "variantName": "cards-blog",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2026-03-12T13:17:00Z",
+  "sourceContext": {
+    "originUrl": "https://vlazar64.github.io/static-site/index.html",
+    "originPage": "homepage latest insights section",
+    "blockPosition": "bottom"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "compact",
+    "purpose": "blog-preview",
+    "imagePattern": "large",
+    "structure": "image + date + heading + description + link"
+  },
+  "contentPattern": {
+    "structure": "image + date + heading + description + link",
+    "buttonCount": 0,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "blog article preview cards",
+      "news article listings",
+      "content hub featured articles"
+    ],
+    "notSuitableFor": [
+      "service offering cards with icons",
+      "team member cards",
+      "product feature cards"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["content/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-03-12T13:17:00Z"
+  }
+}

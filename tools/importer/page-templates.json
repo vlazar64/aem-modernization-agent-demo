@@ -1,0 +1,204 @@
+{
+  "templates": [
+    {
+      "name": "homepage",
+      "urls": [
+        "https://vlazar64.github.io/static-site/index.html"
+      ],
+      "description": "Marketing homepage with hero banner, service cards, value propositions, client testimonials, awards, blog previews, and contact form",
+      "sections": [
+        {
+          "id": "hero",
+          "name": "Hero Section",
+          "selector": "section.relative.min-h-screen",
+          "style": "dark",
+          "blocks": [],
+          "defaultContent": [
+            ".relative.z-10 h1",
+            ".relative.z-10 p",
+            ".relative.z-10 .flex.flex-wrap a"
+          ]
+        },
+        {
+          "id": "digital-solutions",
+          "name": "Digital Solutions Section",
+          "selector": "section.py-20.bg-white",
+          "style": null,
+          "blocks": [
+            "cards-service"
+          ],
+          "defaultContent": [
+            ".text-center.mb-16 h2"
+          ]
+        },
+        {
+          "id": "differentiators",
+          "name": "Why Choose YourBrand Section",
+          "selector": "section.py-20.bg-gray-50",
+          "style": "light",
+          "blocks": [
+            "columns-differentiator"
+          ],
+          "defaultContent": [
+            ".text-center.mb-16 h2"
+          ]
+        },
+        {
+          "id": "client-logos",
+          "name": "Trusted By Industry Leaders Section",
+          "selector": "section.py-16.bg-white",
+          "style": null,
+          "blocks": [],
+          "defaultContent": [
+            ".text-center.mb-12 h2",
+            ".flex.flex-wrap span"
+          ]
+        },
+        {
+          "id": "testimonials",
+          "name": "What Our Clients Say Section",
+          "selector": "section.relative.py-20.overflow-hidden",
+          "style": "dark",
+          "blocks": [
+            "columns-testimonial"
+          ],
+          "defaultContent": [
+            ".text-center.mb-16 h2"
+          ]
+        },
+        {
+          "id": "awards",
+          "name": "Awards & Recognition Section",
+          "selector": [
+            "section.py-20.bg-white:nth-of-type(4)",
+            "section.py-20.bg-white + section.py-20.bg-white + section.py-20.bg-white"
+          ],
+          "style": null,
+          "blocks": [
+            "columns-award"
+          ],
+          "defaultContent": [
+            ".text-center.mb-16 h2"
+          ]
+        },
+        {
+          "id": "blog-preview",
+          "name": "Latest Insights Section",
+          "selector": [
+            "section.py-20.bg-gray-50:nth-of-type(2)",
+            "section.py-20.bg-gray-50 + section + section + section + section.py-20.bg-gray-50"
+          ],
+          "style": "light",
+          "blocks": [
+            "cards-blog"
+          ],
+          "defaultContent": [
+            ".text-center.mb-16 h2",
+            ".text-center.mt-12 a"
+          ]
+        },
+        {
+          "id": "contact",
+          "name": "Contact Section",
+          "selector": "section#contact",
+          "style": "dark",
+          "blocks": [
+            "form"
+          ],
+          "defaultContent": [
+            ".text-center.mb-16 h2",
+            ".text-center.mb-16 p",
+            ".flex.flex-col.justify-center"
+          ]
+        }
+      ],
+      "blocks": [
+        {
+          "name": "cards-service",
+          "instances": [
+            ".service-card"
+          ]
+        },
+        {
+          "name": "columns-differentiator",
+          "instances": [
+            "section.py-20.bg-gray-50 .grid .flex.gap-4"
+          ]
+        },
+        {
+          "name": "columns-testimonial",
+          "instances": [
+            "section.relative.py-20.overflow-hidden .bg-white.rounded-2xl.shadow-xl"
+          ]
+        },
+        {
+          "name": "columns-award",
+          "instances": [
+            ".grid.max-w-4xl .text-center.p-8"
+          ]
+        },
+        {
+          "name": "cards-blog",
+          "instances": [
+            "section.py-20.bg-gray-50 article.bg-white.rounded-2xl"
+          ]
+        },
+        {
+          "name": "form",
+          "instances": [
+            "form.contact-form"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "service-page",
+      "urls": [
+        "https://vlazar64.github.io/static-site/digital-solutions.html",
+        "https://vlazar64.github.io/static-site/ways-of-working.html"
+      ],
+      "description": "Service and methodology pages with hero section, content cards showcasing offerings or processes, and conversion CTA",
+      "blocks": []
+    },
+    {
+      "name": "customer-stories",
+      "urls": [
+        "https://vlazar64.github.io/static-site/customer-stories.html"
+      ],
+      "description": "Customer case studies page with metric-driven success story cards, trusted-by logos, and project inquiry CTA",
+      "blocks": []
+    },
+    {
+      "name": "about-page",
+      "urls": [
+        "https://vlazar64.github.io/static-site/about-us.html"
+      ],
+      "description": "Company overview page with brand story, mission values, team members grid, awards, and dual CTAs",
+      "blocks": []
+    },
+    {
+      "name": "blog-listing",
+      "urls": [
+        "https://vlazar64.github.io/static-site/blog.html"
+      ],
+      "description": "Blog hub page with featured article, categorized blog post cards, and newsletter subscription",
+      "blocks": []
+    },
+    {
+      "name": "careers-page",
+      "urls": [
+        "https://vlazar64.github.io/static-site/join-us.html"
+      ],
+      "description": "Careers recruitment page with value propositions, company values, benefits grid, and job application CTA",
+      "blocks": []
+    },
+    {
+      "name": "legal-page",
+      "urls": [
+        "https://vlazar64.github.io/static-site/privacy-policy.html"
+      ],
+      "description": "Legal documentation page with numbered policy sections, compliance information, and contact details",
+      "blocks": []
+    }
+  ]
+}

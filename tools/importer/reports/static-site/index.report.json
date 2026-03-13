@@ -1,0 +1,31 @@
+{
+  "status": "success",
+  "url": "https://vlazar64.github.io/static-site/index.html",
+  "path": "static-site/index",
+  "timestamp": "2026-03-12T21:45:32.119Z",
+  "title": "YourBrand - Engineering Seamless Solutions For a Connected World",
+  "template": "homepage",
+  "blocks": [
+    "cards-service",
+    "cards-service",
+    "cards-service",
+    "cards-service",
+    "cards-service",
+    "columns-differentiator",
+    "columns-differentiator",
+    "columns-differentiator",
+    "columns-differentiator",
+    "columns-differentiator",
+    "columns-differentiator",
+    "columns-differentiator",
+    "columns-testimonial",
+    "columns-testimonial",
+    "columns-award",
+    "columns-award",
+    "columns-award",
+    "cards-blog",
+    "cards-blog",
+    "cards-blog",
+    "form"
+  ]
+}

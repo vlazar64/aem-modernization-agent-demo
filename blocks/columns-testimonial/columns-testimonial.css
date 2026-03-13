@@ -1,0 +1,55 @@
+/* Columns Testimonial - client testimonial cards */
+.columns-testimonial > div {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 32px;
+}
+
+.columns-testimonial > div > div {
+  background: var(--color-white);
+  border-radius: var(--border-radius-lg);
+  box-shadow: var(--shadow-xl);
+  padding: 32px;
+}
+
+.columns-testimonial > div > div > p:first-child {
+  font-size: 18px;
+  font-style: italic;
+  color: var(--color-gray-700);
+  line-height: 1.75;
+  margin-bottom: 24px;
+  position: relative;
+}
+
+.columns-testimonial > div > div > p:first-child::before {
+  content: '\201C';
+  font-size: 48px;
+  color: var(--color-brand-primary);
+  line-height: 1;
+  position: absolute;
+  top: -10px;
+  left: -5px;
+  opacity: 0.3;
+}
+
+/* Author name */
+.columns-testimonial > div > div > p:nth-child(2) {
+  font-weight: 700;
+  color: var(--heading-color);
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+
+/* Company name */
+.columns-testimonial > div > div > p:nth-child(3) {
+  color: var(--color-brand-primary);
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+@media (min-width: 768px) {
+  .columns-testimonial > div {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

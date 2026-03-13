@@ -1,0 +1,40 @@
+{
+  "variantName": "cards-service",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2026-03-12T13:17:00Z",
+  "sourceContext": {
+    "originUrl": "https://vlazar64.github.io/static-site/index.html",
+    "originPage": "homepage digital solutions section",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "compact",
+    "purpose": "service-cards",
+    "imagePattern": "icon",
+    "structure": "icon + heading + description + link"
+  },
+  "contentPattern": {
+    "structure": "icon + heading + description + link",
+    "buttonCount": 0,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "service offering cards on light backgrounds",
+      "feature cards with icons and learn-more links",
+      "solution overview grids"
+    ],
+    "notSuitableFor": [
+      "blog article cards with large images",
+      "team member cards",
+      "dark background capability cards"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["content/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-03-12T13:17:00Z"
+  }
+}
