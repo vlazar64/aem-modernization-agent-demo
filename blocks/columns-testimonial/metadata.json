@@ -1,0 +1,40 @@
+{
+  "variantName": "columns-testimonial",
+  "baseBlock": "columns",
+  "version": "1.0.0",
+  "created": "2026-03-12T13:17:00Z",
+  "sourceContext": {
+    "originUrl": "https://vlazar64.github.io/static-site/index.html",
+    "originPage": "homepage testimonials section",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "spacious",
+    "purpose": "testimonial",
+    "imagePattern": "noimg",
+    "structure": "quote + author-name + company"
+  },
+  "contentPattern": {
+    "structure": "quote + author-name + company",
+    "buttonCount": 0,
+    "imageCount": 0
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "client testimonial sections",
+      "customer quote sections",
+      "review/feedback displays"
+    ],
+    "notSuitableFor": [
+      "service detail layouts",
+      "image/text side-by-side",
+      "case study entries"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["content/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-03-12T13:17:00Z"
+  }
+}

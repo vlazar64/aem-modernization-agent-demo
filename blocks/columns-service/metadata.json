@@ -1,0 +1,40 @@
+{
+  "variantName": "columns-service",
+  "baseBlock": "columns",
+  "version": "1.0.0",
+  "created": "2026-03-12T11:32:00Z",
+  "sourceContext": {
+    "originUrl": "https://vlazar64.github.io/static-site/digital-solutions.html",
+    "originPage": "service page with alternating service detail entries",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "service-detail",
+    "imagePattern": "large",
+    "structure": "icon + heading + description + tags + link | image"
+  },
+  "contentPattern": {
+    "structure": "icon + heading + description + tags + link | image",
+    "buttonCount": 1,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "service detail pages with alternating text/image layout",
+      "solution overview pages",
+      "feature description sections with tags"
+    ],
+    "notSuitableFor": [
+      "simple two-column text layouts",
+      "comparison layouts",
+      "image galleries"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["content/static-site/digital-solutions"],
+    "reuseCount": 1,
+    "lastUsed": "2026-03-12T11:32:00Z"
+  }
+}

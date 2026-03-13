@@ -1,0 +1,41 @@
+{
+  "variantName": "hero-service",
+  "baseBlock": "hero",
+  "version": "1.0.0",
+  "created": "2026-03-12T11:32:00Z",
+  "sourceContext": {
+    "originUrl": "https://vlazar64.github.io/static-site/digital-solutions.html",
+    "originPage": "service page with digital solutions",
+    "blockPosition": "top"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "purpose": "service-hero",
+    "imagePattern": "noimg",
+    "structure": "heading + description"
+  },
+  "contentPattern": {
+    "structure": "heading + description",
+    "buttonCount": 0,
+    "imageCount": 0
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "service detail pages",
+      "solution pages",
+      "capability landing pages",
+      "pages with breadcrumb and simple hero"
+    ],
+    "notSuitableFor": [
+      "homepage heroes with CTAs",
+      "heroes with background images",
+      "product pages with prominent imagery"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["content/static-site/digital-solutions", "content/static-site/customer-stories"],
+    "reuseCount": 2,
+    "lastUsed": "2026-03-12T11:35:00Z"
+  }
+}

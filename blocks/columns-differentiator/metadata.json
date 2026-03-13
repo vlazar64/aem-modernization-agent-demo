@@ -1,0 +1,40 @@
+{
+  "variantName": "columns-differentiator",
+  "baseBlock": "columns",
+  "version": "1.0.0",
+  "created": "2026-03-12T13:17:00Z",
+  "sourceContext": {
+    "originUrl": "https://vlazar64.github.io/static-site/index.html",
+    "originPage": "homepage why choose section",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "compact",
+    "purpose": "differentiator",
+    "imagePattern": "icon",
+    "structure": "icon + heading + description"
+  },
+  "contentPattern": {
+    "structure": "icon + heading + description",
+    "buttonCount": 0,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "value proposition grids with icons",
+      "feature differentiator sections",
+      "benefit lists with small icons"
+    ],
+    "notSuitableFor": [
+      "side-by-side text/image layouts",
+      "case study columns",
+      "testimonial columns"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["content/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-03-12T13:17:00Z"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "variantName": "columns-award",
+  "baseBlock": "columns",
+  "version": "1.0.0",
+  "created": "2026-03-12T13:17:00Z",
+  "sourceContext": {
+    "originUrl": "https://vlazar64.github.io/static-site/index.html",
+    "originPage": "homepage awards and recognition section",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "award-showcase",
+    "imagePattern": "icon",
+    "structure": "icon + heading + subtitle"
+  },
+  "contentPattern": {
+    "structure": "icon + heading + subtitle",
+    "buttonCount": 0,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "awards and recognition displays",
+      "certification showcase sections",
+      "centered icon + text column layouts"
+    ],
+    "notSuitableFor": [
+      "side-by-side text/image layouts",
+      "case study entries",
+      "testimonial sections"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["content/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-03-12T13:17:00Z"
+  }
+}

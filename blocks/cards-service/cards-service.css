@@ -1,0 +1,84 @@
+/* Cards Service - service offering cards */
+.cards-service > ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+}
+
+.cards-service > ul > li {
+  background: var(--color-white);
+  border: 1px solid var(--color-gray-100);
+  border-radius: var(--border-radius-md);
+  box-shadow: var(--shadow-lg);
+  padding: 32px;
+  transition: box-shadow var(--transition-slow), transform var(--transition-slow);
+}
+
+.cards-service > ul > li:hover {
+  box-shadow: var(--shadow-xl);
+  transform: translateY(-4px);
+}
+
+.cards-service .cards-service-card-image {
+  line-height: 0;
+  width: 56px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-blue-50);
+  border-radius: var(--border-radius-md);
+  margin-bottom: 20px;
+  flex-shrink: 0;
+}
+
+.cards-service .cards-service-card-image img {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+}
+
+.cards-service .cards-service-card-body h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--heading-color);
+  margin-bottom: 8px;
+}
+
+.cards-service .cards-service-card-body p {
+  color: var(--color-gray-600);
+  font-size: 16px;
+  line-height: 1.625;
+  margin-bottom: 16px;
+}
+
+.cards-service .cards-service-card-body p:last-child {
+  margin-bottom: 0;
+}
+
+.cards-service .cards-service-card-body a {
+  color: var(--color-brand-primary);
+  font-weight: 600;
+  font-size: 16px;
+  text-decoration: none;
+  transition: color var(--transition-base);
+}
+
+.cards-service .cards-service-card-body a:hover {
+  color: var(--color-brand-primary-dark);
+}
+
+@media (min-width: 768px) {
+  .cards-service > ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .cards-service > ul {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
