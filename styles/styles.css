@@ -266,6 +266,11 @@ main > .section.light {
   display: none;
 }
 
+/* Metadata block (page metadata, hidden from display) */
+.metadata-container {
+  display: none;
+}
+
 /* Form inputs */
 input[type="text"],
 input[type="email"],
