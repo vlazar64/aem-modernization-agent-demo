@@ -1,5 +1,6 @@
 {
-  "type": "doc",
+  "type": "da",
   "libraryUrl": "https://main--sta-boilerplate--aemdemos.aem.page/tools/sidekick/library.json",
-  "detectedAt": "2026-03-12T00:00:00Z"
+  "detectedAt": "2026-03-12T00:00:00Z",
+  "contentHostUrl": "content.da.live"
 }
